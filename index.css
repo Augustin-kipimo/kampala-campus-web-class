@@ -23,6 +23,7 @@ header h1{
 
 .navbar-menu{
     margin-bottom: 10px;
+    background-color: seagreen;
     box-shadow: 0 4px 8px  rgba(1, 63, 35, 0.909);
     backdrop-filter: blur(5px);
     height: auto;
