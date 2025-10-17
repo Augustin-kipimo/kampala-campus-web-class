@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
-.main-contant {
+.main-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,5 +10,17 @@ body {
     border: 2px solid black;
     background-color: aqua;
 }
-
-
+.section-one, .section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid red;
+    padding: 4px;
+    margin: 4px;
+}
+.Contact, .events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+}
