@@ -40,11 +40,15 @@ header h1{
 }
 .navbar-menu ul li{
     font-size: 1.2em;
+    transition: color 0.3s ease, font-weight 0.3s ease, font-size 0.3s ease;
 }
 .navbar-menu ul li:hover{
     cursor: pointer;
     color: rgba(1, 63, 35, 0.909);
+    padding: 0 8px;
     font-weight: bold;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(1, 63, 35, 0.909);
 }
 
 .section-one, .section-two{
